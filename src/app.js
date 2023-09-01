@@ -35,7 +35,6 @@ window.test = function test() {
   document.getElementById("carta");
   document.getElementById("carta").innerHTML = showCard;
 
-  // Agregamos una copia de "showCard" en la esquina superior izquierda
   const div = document.createElement("div");
   div.classList.add("carta");
   div.innerHTML = showCardDuplicada;
@@ -43,8 +42,6 @@ window.test = function test() {
   div.style.left = "0";
   div.style.width = "200px";
   div.style.height = "300px";
-
-  // Agregamos otra copia de "showCard" en la esquina inferior derecha
 
   div.classList.add("carta");
   div.innerHTML = showCardDuplicada;
